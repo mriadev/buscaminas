@@ -1,0 +1,94 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+
+#tablero div:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+
+header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    background-color: #4A752C;
+}
+
+header p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+}
+
+main{
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+select{
+    font-size: 20px;
+    height: 35px;
+    font-size: 20px;
+    height: 35px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+  
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.oculto{
+    display: none;
+}
+
+.casilla_destapada_uno{
+    color: red;
+}
+
+.casilla_destapada_dos{
+    color: green;
+}
+
+.casilla_destapada_tres{
+    color: blue;
+}
+
+.casilla_destapada_cuatro{
+    color: rgb(90, 205, 195);
+}
+
+
+.reinicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    z-index: 3;
+    position: absolute;
+    background-color: white;
+    height: 100px;
+    height: 65px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

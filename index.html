@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+    <meta name="author" content="María Cervilla Alcalde">
+    <script src="src/main.js" type="module" ></script>
+    <script src="src/buscaminas.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Buscaminas</h1>
+    <div class="oculto">
+        <p></p><span id="record"></span>
+        <button>Reiniciar</button>
+    </div>
+    <main>
+        <header>
+            <select name="dificultad">
+                <option value="facil">Fácil</option>
+                <option value="medio">Medio</option>
+                <option value="dificil">Difícil</option>
+            </select>
+            <p>
+                <span id="minasRestantes">10 </span>🚩
+            </p>
+            <p>
+                <span id="tiempo"></span>⏱️
+            </p>
+        </header>
+        <section id="tablero">
+
+        </section>
+    </main>
+</body>
+
+</html>
